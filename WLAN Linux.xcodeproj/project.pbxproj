@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3570555B20F169FF00FCA9DC /* is_wireless.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = is_wireless.c; sourceTree = "<group>"; };
+		3570555C20F169FF00FCA9DC /* is_wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = is_wireless.h; sourceTree = "<group>"; };
+		3570555D20F175B000FCA9DC /* low_scan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = low_scan.c; sourceTree = "<group>"; };
+		3570555E20F175B000FCA9DC /* low_scan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = low_scan.h; sourceTree = "<group>"; };
+		3570555F20F1887400FCA9DC /* wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.h; sourceTree = "<group>"; };
+		3570556020F1887500FCA9DC /* iwlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwlib.c; sourceTree = "<group>"; };
+		3570556120F1887500FCA9DC /* iwlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwlib.h; sourceTree = "<group>"; };
+		35AC57CF20F14D83000C606E /* scan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scan.c; sourceTree = "<group>"; };
+		35AC57D020F14D83000C606E /* scan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scan.h; sourceTree = "<group>"; };
+		35AC57D420F15992000C606E /* iwspy.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iwspy.o; sourceTree = "<group>"; };
+		35AC57D520F15992000C606E /* iwlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwlist.c; sourceTree = "<group>"; };
+		35AC57D620F15992000C606E /* iwspy.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwspy.8; sourceTree = "<group>"; };
+		35AC57D720F15992000C606E /* iwevent */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwevent; sourceTree = "<group>"; };
+		35AC57D820F15992000C606E /* iftab.5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iftab.5; sourceTree = "<group>"; };
+		35AC57D920F15992000C606E /* ifrename.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ifrename.d; sourceTree = "<group>"; };
+		35AC57DA20F15992000C606E /* iwpriv.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwpriv.8; sourceTree = "<group>"; };
+		35AC57DB20F15992000C606E /* sample_priv_addr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sample_priv_addr.c; sourceTree = "<group>"; };
+		35AC57DC20F15992000C606E /* HOTPLUG.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HOTPLUG.txt; sourceTree = "<group>"; };
+		35AC57DD20F15992000C606E /* iwpriv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iwpriv.o; sourceTree = "<group>"; };
+		35AC57DE20F15992000C606E /* iwpriv */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwpriv; sourceTree = "<group>"; };
+		35AC57DF20F15992000C606E /* iwlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwlib.c; sourceTree = "<group>"; };
+		35AC57E020F15992000C606E /* ifrename */ = {isa = PBXFileReference; lastKnownFileType = file; path = ifrename; sourceTree = "<group>"; };
+		35AC57E120F15992000C606E /* wireless.13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.13.h; sourceTree = "<group>"; };
+		35AC57E220F15992000C606E /* ifrename.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ifrename.o; sourceTree = "<group>"; };
+		35AC57E320F15992000C606E /* iwspy.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwspy.d; sourceTree = "<group>"; };
+		35AC57E420F15992000C606E /* iwgetid.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwgetid.8; sourceTree = "<group>"; };
+		35AC57E520F15992000C606E /* iwlist.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwlist.d; sourceTree = "<group>"; };
+		35AC57E720F15992000C606E /* iwspy.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwspy.8; sourceTree = "<group>"; };
+		35AC57E820F15992000C606E /* iftab.5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iftab.5; sourceTree = "<group>"; };
+		35AC57E920F15992000C606E /* iwpriv.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwpriv.8; sourceTree = "<group>"; };
+		35AC57EA20F15992000C606E /* iwgetid.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwgetid.8; sourceTree = "<group>"; };
+		35AC57EB20F15992000C606E /* iwevent.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwevent.8; sourceTree = "<group>"; };
+		35AC57EC20F15992000C606E /* iwconfig.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwconfig.8; sourceTree = "<group>"; };
+		35AC57ED20F15992000C606E /* wireless.7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = wireless.7; sourceTree = "<group>"; };
+		35AC57EE20F15993000C606E /* iwlist.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwlist.8; sourceTree = "<group>"; };
+		35AC57EF20F15993000C606E /* ifrename.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ifrename.8; sourceTree = "<group>"; };
+		35AC57F020F15993000C606E /* iwpriv.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwpriv.d; sourceTree = "<group>"; };
+		35AC57F120F15993000C606E /* DISTRIBUTIONS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DISTRIBUTIONS.txt; sourceTree = "<group>"; };
+		35AC57F220F15993000C606E /* macaddr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = macaddr.c; sourceTree = "<group>"; };
+		35AC57F320F15993000C606E /* iwlist */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwlist; sourceTree = "<group>"; };
+		35AC57F420F15993000C606E /* iwlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwlib.h; sourceTree = "<group>"; };
+		35AC57F520F15993000C606E /* iwgetid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwgetid.c; sourceTree = "<group>"; };
+		35AC57F620F15993000C606E /* iwmulticall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwmulticall.c; sourceTree = "<group>"; };
+		35AC57F720F15993000C606E /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		35AC57F820F15993000C606E /* iwconfig */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwconfig; sourceTree = "<group>"; };
+		35AC57F920F15993000C606E /* libiw.so.29 */ = {isa = PBXFileReference; lastKnownFileType = file; path = libiw.so.29; sourceTree = "<group>"; };
+		35AC57FA20F15993000C606E /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		35AC57FB20F15993000C606E /* wireless.18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.18.h; sourceTree = "<group>"; };
+		35AC57FC20F15993000C606E /* README.fr */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.fr; sourceTree = "<group>"; };
+		35AC57FD20F15993000C606E /* iwevent.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwevent.8; sourceTree = "<group>"; };
+		35AC57FE20F15993000C606E /* iwconfig.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwconfig.8; sourceTree = "<group>"; };
+		35AC57FF20F15993000C606E /* wireless.7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = wireless.7; sourceTree = "<group>"; };
+		35AC580020F15993000C606E /* wireless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.h; sourceTree = "<group>"; };
+		35AC580120F15993000C606E /* wireless.12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.12.h; sourceTree = "<group>"; };
+		35AC580220F15993000C606E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		35AC580320F15993000C606E /* CHANGELOG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHANGELOG.h; sourceTree = "<group>"; };
+		35AC580420F15993000C606E /* IFRENAME-VS-XXX.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "IFRENAME-VS-XXX.txt"; sourceTree = "<group>"; };
+		35AC580520F15993000C606E /* iwevent.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwevent.c; sourceTree = "<group>"; };
+		35AC580620F15993000C606E /* iwlist.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwlist.8; sourceTree = "<group>"; };
+		35AC580720F15993000C606E /* wireless.20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.20.h; sourceTree = "<group>"; };
+		35AC580820F15993000C606E /* iwpriv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwpriv.c; sourceTree = "<group>"; };
+		35AC580920F15993000C606E /* wireless.11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.11.h; sourceTree = "<group>"; };
+		35AC580A20F15993000C606E /* iwevent.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iwevent.o; sourceTree = "<group>"; };
+		35AC580B20F15993000C606E /* iwlib.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwlib.d; sourceTree = "<group>"; };
+		35AC580C20F15993000C606E /* iwspy */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwspy; sourceTree = "<group>"; };
+		35AC580D20F15993000C606E /* wireless.22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.22.h; sourceTree = "<group>"; };
+		35AC580E20F15993000C606E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		35AC580F20F15993000C606E /* iwconfig.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwconfig.d; sourceTree = "<group>"; };
+		35AC581020F15993000C606E /* iwlist.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iwlist.o; sourceTree = "<group>"; };
+		35AC581120F15993000C606E /* sample_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sample_enc.c; sourceTree = "<group>"; };
+		35AC581220F15993000C606E /* iwevent.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwevent.d; sourceTree = "<group>"; };
+		35AC581320F15993000C606E /* wireless.14.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.14.h; sourceTree = "<group>"; };
+		35AC581420F15993000C606E /* iwgetid.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iwgetid.o; sourceTree = "<group>"; };
+		35AC581520F15993000C606E /* iwgetid */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwgetid; sourceTree = "<group>"; };
+		35AC581620F15993000C606E /* wireless.15.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.15.h; sourceTree = "<group>"; };
+		35AC581720F15993000C606E /* PCMCIA.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PCMCIA.txt; sourceTree = "<group>"; };
+		35AC581820F15993000C606E /* wireless.16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.16.h; sourceTree = "<group>"; };
+		35AC581920F15993000C606E /* iwgetid.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iwgetid.d; sourceTree = "<group>"; };
+		35AC581A20F15993000C606E /* wireless.17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.17.h; sourceTree = "<group>"; };
+		35AC581B20F15993000C606E /* iwspy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwspy.c; sourceTree = "<group>"; };
+		35AC581C20F15993000C606E /* iwlib.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = iwlib.so; sourceTree = "<group>"; };
+		35AC581D20F15993000C606E /* wireless.21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.21.h; sourceTree = "<group>"; };
+		35AC581F20F15993000C606E /* iwspy.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwspy.8; sourceTree = "<group>"; };
+		35AC582020F15993000C606E /* iftab.5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iftab.5; sourceTree = "<group>"; };
+		35AC582120F15993000C606E /* iwpriv.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwpriv.8; sourceTree = "<group>"; };
+		35AC582220F15993000C606E /* iwgetid.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwgetid.8; sourceTree = "<group>"; };
+		35AC582320F15993000C606E /* iwevent.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwevent.8; sourceTree = "<group>"; };
+		35AC582420F15993000C606E /* iwconfig.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwconfig.8; sourceTree = "<group>"; };
+		35AC582520F15993000C606E /* wireless.7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = wireless.7; sourceTree = "<group>"; };
+		35AC582620F15993000C606E /* iwlist.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iwlist.8; sourceTree = "<group>"; };
+		35AC582720F15993000C606E /* ifrename.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ifrename.8; sourceTree = "<group>"; };
+		35AC582820F15993000C606E /* wireless.10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.10.h; sourceTree = "<group>"; };
+		35AC582920F15993000C606E /* iwconfig.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iwconfig.c; sourceTree = "<group>"; };
+		35AC582A20F15993000C606E /* iwconfig.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iwconfig.o; sourceTree = "<group>"; };
+		35AC582B20F15993000C606E /* udev.import_devpath.diff */ = {isa = PBXFileReference; lastKnownFileType = text; path = udev.import_devpath.diff; sourceTree = "<group>"; };
+		35AC582C20F15993000C606E /* sample_pm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sample_pm.c; sourceTree = "<group>"; };
+		35AC582D20F15993000C606E /* wireless.19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireless.19.h; sourceTree = "<group>"; };
+		35AC582E20F15994000C606E /* ifrename.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ifrename.8; sourceTree = "<group>"; };
+		35AC582F20F15994000C606E /* ifrename.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ifrename.c; sourceTree = "<group>"; };
+		35AC583020F15994000C606E /* 19-udev-ifrename.rules */ = {isa = PBXFileReference; lastKnownFileType = text; path = "19-udev-ifrename.rules"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3597F1CC20F322B500CB2B9B /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				3570556020F1887500FCA9DC /* iwlib.c */,
+				3570556120F1887500FCA9DC /* iwlib.h */,
+				3570555F20F1887400FCA9DC /* wireless.h */,
+				3570555D20F175B000FCA9DC /* low_scan.c */,
+				3570555E20F175B000FCA9DC /* low_scan.h */,
+				3570555B20F169FF00FCA9DC /* is_wireless.c */,
+				3570555C20F169FF00FCA9DC /* is_wireless.h */,
+				35AC57CF20F14D83000C606E /* scan.c */,
+				35AC57D020F14D83000C606E /* scan.h */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		35AC57C820F14D52000C606E = {
+			isa = PBXGroup;
+			children = (
+				3597F1CC20F322B500CB2B9B /* tests */,
+				35AC57D320F15992000C606E /* wireless_tools.29 */,
+			);
+			sourceTree = "<group>";
+		};
+		35AC57D320F15992000C606E /* wireless_tools.29 */ = {
+			isa = PBXGroup;
+			children = (
+				35AC57D420F15992000C606E /* iwspy.o */,
+				35AC57D520F15992000C606E /* iwlist.c */,
+				35AC57D620F15992000C606E /* iwspy.8 */,
+				35AC57D720F15992000C606E /* iwevent */,
+				35AC57D820F15992000C606E /* iftab.5 */,
+				35AC57D920F15992000C606E /* ifrename.d */,
+				35AC57DA20F15992000C606E /* iwpriv.8 */,
+				35AC57DB20F15992000C606E /* sample_priv_addr.c */,
+				35AC57DC20F15992000C606E /* HOTPLUG.txt */,
+				35AC57DD20F15992000C606E /* iwpriv.o */,
+				35AC57DE20F15992000C606E /* iwpriv */,
+				35AC57DF20F15992000C606E /* iwlib.c */,
+				35AC57E020F15992000C606E /* ifrename */,
+				35AC57E120F15992000C606E /* wireless.13.h */,
+				35AC57E220F15992000C606E /* ifrename.o */,
+				35AC57E320F15992000C606E /* iwspy.d */,
+				35AC57E420F15992000C606E /* iwgetid.8 */,
+				35AC57E520F15992000C606E /* iwlist.d */,
+				35AC57E620F15992000C606E /* fr */,
+				35AC57F020F15993000C606E /* iwpriv.d */,
+				35AC57F120F15993000C606E /* DISTRIBUTIONS.txt */,
+				35AC57F220F15993000C606E /* macaddr.c */,
+				35AC57F320F15993000C606E /* iwlist */,
+				35AC57F420F15993000C606E /* iwlib.h */,
+				35AC57F520F15993000C606E /* iwgetid.c */,
+				35AC57F620F15993000C606E /* iwmulticall.c */,
+				35AC57F720F15993000C606E /* COPYING */,
+				35AC57F820F15993000C606E /* iwconfig */,
+				35AC57F920F15993000C606E /* libiw.so.29 */,
+				35AC57FA20F15993000C606E /* INSTALL */,
+				35AC57FB20F15993000C606E /* wireless.18.h */,
+				35AC57FC20F15993000C606E /* README.fr */,
+				35AC57FD20F15993000C606E /* iwevent.8 */,
+				35AC57FE20F15993000C606E /* iwconfig.8 */,
+				35AC57FF20F15993000C606E /* wireless.7 */,
+				35AC580020F15993000C606E /* wireless.h */,
+				35AC580120F15993000C606E /* wireless.12.h */,
+				35AC580220F15993000C606E /* Makefile */,
+				35AC580320F15993000C606E /* CHANGELOG.h */,
+				35AC580420F15993000C606E /* IFRENAME-VS-XXX.txt */,
+				35AC580520F15993000C606E /* iwevent.c */,
+				35AC580620F15993000C606E /* iwlist.8 */,
+				35AC580720F15993000C606E /* wireless.20.h */,
+				35AC580820F15993000C606E /* iwpriv.c */,
+				35AC580920F15993000C606E /* wireless.11.h */,
+				35AC580A20F15993000C606E /* iwevent.o */,
+				35AC580B20F15993000C606E /* iwlib.d */,
+				35AC580C20F15993000C606E /* iwspy */,
+				35AC580D20F15993000C606E /* wireless.22.h */,
+				35AC580E20F15993000C606E /* README */,
+				35AC580F20F15993000C606E /* iwconfig.d */,
+				35AC581020F15993000C606E /* iwlist.o */,
+				35AC581120F15993000C606E /* sample_enc.c */,
+				35AC581220F15993000C606E /* iwevent.d */,
+				35AC581320F15993000C606E /* wireless.14.h */,
+				35AC581420F15993000C606E /* iwgetid.o */,
+				35AC581520F15993000C606E /* iwgetid */,
+				35AC581620F15993000C606E /* wireless.15.h */,
+				35AC581720F15993000C606E /* PCMCIA.txt */,
+				35AC581820F15993000C606E /* wireless.16.h */,
+				35AC581920F15993000C606E /* iwgetid.d */,
+				35AC581A20F15993000C606E /* wireless.17.h */,
+				35AC581B20F15993000C606E /* iwspy.c */,
+				35AC581C20F15993000C606E /* iwlib.so */,
+				35AC581D20F15993000C606E /* wireless.21.h */,
+				35AC581E20F15993000C606E /* cs */,
+				35AC582820F15993000C606E /* wireless.10.h */,
+				35AC582920F15993000C606E /* iwconfig.c */,
+				35AC582A20F15993000C606E /* iwconfig.o */,
+				35AC582B20F15993000C606E /* udev.import_devpath.diff */,
+				35AC582C20F15993000C606E /* sample_pm.c */,
+				35AC582D20F15993000C606E /* wireless.19.h */,
+				35AC582E20F15994000C606E /* ifrename.8 */,
+				35AC582F20F15994000C606E /* ifrename.c */,
+				35AC583020F15994000C606E /* 19-udev-ifrename.rules */,
+			);
+			path = wireless_tools.29;
+			sourceTree = "<group>";
+		};
+		35AC57E620F15992000C606E /* fr */ = {
+			isa = PBXGroup;
+			children = (
+				35AC57E720F15992000C606E /* iwspy.8 */,
+				35AC57E820F15992000C606E /* iftab.5 */,
+				35AC57E920F15992000C606E /* iwpriv.8 */,
+				35AC57EA20F15992000C606E /* iwgetid.8 */,
+				35AC57EB20F15992000C606E /* iwevent.8 */,
+				35AC57EC20F15992000C606E /* iwconfig.8 */,
+				35AC57ED20F15992000C606E /* wireless.7 */,
+				35AC57EE20F15993000C606E /* iwlist.8 */,
+				35AC57EF20F15993000C606E /* ifrename.8 */,
+			);
+			path = fr;
+			sourceTree = "<group>";
+		};
+		35AC581E20F15993000C606E /* cs */ = {
+			isa = PBXGroup;
+			children = (
+				35AC581F20F15993000C606E /* iwspy.8 */,
+				35AC582020F15993000C606E /* iftab.5 */,
+				35AC582120F15993000C606E /* iwpriv.8 */,
+				35AC582220F15993000C606E /* iwgetid.8 */,
+				35AC582320F15993000C606E /* iwevent.8 */,
+				35AC582420F15993000C606E /* iwconfig.8 */,
+				35AC582520F15993000C606E /* wireless.7 */,
+				35AC582620F15993000C606E /* iwlist.8 */,
+				35AC582720F15993000C606E /* ifrename.8 */,
+			);
+			path = cs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		35AC57C920F14D52000C606E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 35AC57CC20F14D52000C606E /* Build configuration list for PBXProject "WLAN Linux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35AC57C820F14D52000C606E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		35AC57CD20F14D52000C606E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		35AC57CE20F14D52000C606E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35AC57CC20F14D52000C606E /* Build configuration list for PBXProject "WLAN Linux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AC57CD20F14D52000C606E /* Debug */,
+				35AC57CE20F14D52000C606E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35AC57C920F14D52000C606E /* Project object */;
+}
